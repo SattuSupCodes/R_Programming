@@ -5,7 +5,7 @@ typeof(c(12.5))
 length(vec_1)
 is.character(vec_1) #false
 # creating lists
-list_1 <- list(12, "a", 7.9)
+list_1 <- list(12, 'a' = 4, 7.9)
 list_1
 
 # atomic vectors
