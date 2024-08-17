@@ -35,3 +35,4 @@ if (x < 0) {
  print("x is a positive number")
 
 }
+# its all the same everywhere
