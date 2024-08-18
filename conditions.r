@@ -24,15 +24,15 @@ x <- -1
 
 if (x < 0) {
 
- print("x is a negative number")
+print("x is a negative number")
 
 } else if (x == 0) {
 
- print("x is zero")
+print("x is zero")
 
 } else {
 
- print("x is a positive number")
+print("x is a positive number")
 
 }
 # its all the same everywhere
