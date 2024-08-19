@@ -14,7 +14,7 @@ ggplot(gfg, aes(x, y, fill = x)) + geom_bar(stat = "identity")
 
 library(dplyr)
  
-print(starwars %>% filter(species == "Droid"))
+print(starwars %>% filter(species == "Droid")) #that %>% is pipe thingy i guess
 
 
 # data frame
