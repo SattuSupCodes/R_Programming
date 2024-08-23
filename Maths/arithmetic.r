@@ -7,4 +7,5 @@ exp(x=6)
 
 
 
-value <- 3**2 
+value <- 3**2 + 4**1/8
+print(value)
