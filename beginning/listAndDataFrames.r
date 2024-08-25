@@ -4,3 +4,5 @@ print(list)
 
 list[[3]] #indexing
 list[[1]] + 4.5 #once indexed, can be treated as individual object
+list[[3]] <- paste(list[[3]], "baby!")
+print(list) #overwriting
