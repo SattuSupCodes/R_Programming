@@ -9,3 +9,9 @@ print(list) #overwriting
 var = list(sattu = c(2, 5, 7), T, T, F, T, "biatch")
 var
 names(var) 
+
+# data frames
+mydata <- data.frame(person = c("sattu", "satendar", "sats"), 
+                     age = c(20, 23, 26),
+                     gender = factor(c("F", "M", "F")))
+print(mydata)
