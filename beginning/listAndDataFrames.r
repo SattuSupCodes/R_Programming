@@ -15,3 +15,15 @@ mydata <- data.frame(person = c("sattu", "satendar", "sats"),
                      age = c(20, 23, 26),
                      gender = factor(c("F", "M", "F")))
 print(mydata)
+
+
+# excercise
+
+dframe <- data.frame(person = c("stan", "francise", "klaus", "steve"), 
+                     sex = factor(c("M", "M", "M", "M")), 
+                     funny = factor(c("High", "Low", "High", "Low")))
+print(dframe)
+# Appending data
+age <- c(41,30,1600,49)
+dframe <- cbind(dframe, age)#adding column in a data frame
+print(dframe)
