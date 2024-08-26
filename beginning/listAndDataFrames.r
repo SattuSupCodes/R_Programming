@@ -27,3 +27,9 @@ print(dframe)
 age <- c(41,30,1600,49)
 dframe <- cbind(dframe, age)#adding column in a data frame
 print(dframe)
+
+# moving columns
+library(dplyr)
+dframe <- dframe %>% relocate(funny, .before = sex)
+print(dframe)
+
