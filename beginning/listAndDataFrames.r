@@ -32,5 +32,15 @@ print(dframe)
 library(dplyr)
 dframe <- dframe %>% relocate(funny, .before = sex)
 print(dframe)
+# Create a data frame
+data_frame <- data.frame(
+    Numeric = c(1.1, 2.2, 3.3),
+    Character = c("A", "B", "C"),
+    Factor = factor(c("High", "Medium", "Low"))
+)
+
+# Print structure of the data frame
+str(data_frame)
+
 
 
