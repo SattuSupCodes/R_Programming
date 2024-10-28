@@ -25,3 +25,5 @@ df <- data.frame(
   Score = c(95, 89, 78)
 )
 df
+
+# kaash aur achhe se padh ke gyi hoti test mai smh kya faida ye sbh code ka aaaaaaaaah
