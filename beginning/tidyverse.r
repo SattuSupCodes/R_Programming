@@ -26,4 +26,4 @@ df <- data.frame(
 )
 df
 
-# kaash aur achhe se padh ke gyi hoti test mai smh kya faida ye sbh code ka aaaaaaaaah
+# kaash aur achhe se padh ke gyi hoti test mai smh kya faida ye sbh code ka aaaaaaaaah # nolint # nolint: line_length_linter.
