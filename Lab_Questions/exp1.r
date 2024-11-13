@@ -26,10 +26,10 @@ print(max)
 
 # create function to print first n numbers
 
-print_first_n <- function(n) {
+numbers <- function(n) {
  
-  if (n <= 0 || n %% 1 != 0) {
-    cat("Please enter a positive integer.\n")
+  if (n <= 0 ) {
+    print("Please enter an integer.\n")
     return()
   }
   
@@ -41,4 +41,4 @@ print_first_n <- function(n) {
 }
 
 
-print_first_n(8)  
+numbers(8)  
