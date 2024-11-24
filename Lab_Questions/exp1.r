@@ -41,4 +41,4 @@ numbers <- function(n) {
 }
 
 
-numbers(8)  
+numbers(10)  
